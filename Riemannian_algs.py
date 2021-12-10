@@ -40,7 +40,7 @@ class PRGD(BaseOptimizer):
         self._r = r
         self._cal_T = cal_T
         self._eps = eps
-        self._b = b  # Why does changing b affect the convergence so much???
+        self._b = b  
         self.Num_Times_Tangent_Steps_Called = 0
         self._num_steps = 0
                
